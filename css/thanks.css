@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen {  
+	div#preloader {
+		position:absolute;
+		left: -9999px;
+		top: -9999px;
+	}
+	div#preloader img {
+		display:block;
+	}
+}
+
+@media print {  
+	div#preloader,
+	div#preloader img {
+		visibility:hidden;
+		display:none;
+	}
+}
+
+#thanks {
+	margin-right:400px;
+	margin-top:-80px;
+}

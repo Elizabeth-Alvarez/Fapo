@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Header, Footer, Body, and #icon taken from main.css and about.css*/
+
+@media screen { 
+	div#preloader {
+		position:absolute;
+		left: -9999px;
+		top: -9999px;
+	}
+	div#preloader img {
+		display:block;
+	}
+}
+
+@media print { 
+	div#preloader,
+	div#preloader img {
+		visibility:hidden;
+		display:none;
+	}
+}
+
+h2 {
+	color:#FFF;
+	font-size:26px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+p {
+	font-size:14px;
+	text-align:center;
+}
+
+#input_name {
+	width:250px;
+	height:20px;
+	margin:3px;
+	margin-left:1px;
+}
+
+#input_email {
+	width:250px;
+	height:20px;
+	margin:3px;
+	margin-left:1px;
+}
+
+#input_phone {
+	width:250px;
+	height:20px;
+	margin:3px;
+	margin-left:0px;
+}
+
+#input_box {
+	margin-left:30px;
+}
+
+#submit {
+	margin-left:30px;
+}
+
+#social_media {
+	width:400px;
+	height:30px;
+	margin-left:580px;
+	margin-top:55px;
+}
+
+#social_media img {
+	margin-left:-35px;
+}
+
+#contact_form {
+	width:325px;
+	height:auto;
+	color:#FFF;
+	text-align:center;
+	margin-left:525px;
+}

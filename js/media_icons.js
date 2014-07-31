@@ -1,0 +1,2 @@
+// JavaScript Document
+  document.write('<div id="social_media"><a href="http://facebook.com/fapoeinc"><img src="img/facebook.png" width="50" height="37.5" alt="facebook"/></a><a href="http://twitter.com/fapoeinc"><img src="img/twitter.png" width="50" height="37.5" alt="twitter"/></a><a href="http:instagram.com/fapoeinc"><img src="img/instagram.png" width="50" height="37.5" alt="instagram"/></a></div>')
